@@ -2,82 +2,68 @@
 
 ![Demo App](/frontend/public/screenshot-for-readme.png)
 
-<p>A full-stack CRUD (Create, Read, Update, Delete) application built with PostgreSQL, Express, React, and Node.js, styled with TailwindCSS + DaisyUI, and featuring Zustand for state management, rate limiting, and bot detection.</p>
+A full-stack CRUD (Create, Read, Update, Delete) application built with **PostgreSQL, Express, React, and Node.js**, styled using **TailwindCSS + DaisyUI**, and featuring **Zustand** for state management, along with **rate limiting and bot detection**.
 
-<h2> Features</h2>
-<ul>
-  <li> Create, Read, Update, and Delete operations</li>
-  <li> PostgreSQL as the database</li>
-  <li> Express.js for backend API</li>
-  <li> React with Vite for frontend</li>
-  <li> Zustand for global state management</li>
-  <li> TailwindCSS + DaisyUI for UI</li>
-  <li> Rate limiting and bot detection</li>
-</ul>
+## Features
 
-<h2> Tech Stack</h2>
-<p><strong>Frontend:</strong> React (Vite) + TailwindCSS + DaisyUI + Zustand</p>
-<p><strong>Backend:</strong> Node.js + Express.js</p>
-<p><strong>Database:</strong> PostgreSQL</p>
-<p><strong>Security:</strong> Rate limiting & bot detection</p>
+- Create, Read, Update, and Delete (CRUD) operations
+- PostgreSQL as the database
+- Express.js for backend APIs
+- React with Vite for the frontend
+- Zustand for global state management
+- TailwindCSS + DaisyUI for UI styling
+- Rate limiting and bot detection for security
 
-<h2>Installation & Setup</h2>
+## Tech Stack
 
-<h3>1️ Clone the repository</h3>
-<pre><code>git clone https://github.com/your-username/your-repo.git
-cd your-repo</code></pre>
+**Frontend**
+- React (Vite)
+- TailwindCSS
+- DaisyUI
+- Zustand
 
-<h3>2️ Backend Setup</h3>
-<pre><code>cd backend
-npm install</code></pre>
+**Backend**
+- Node.js
+- Express.js
 
-<p>Create a <code>.env</code> file in the <code>backend/</code> folder:</p>
-<pre><code>DATABASE_URL=your_postgres_connection_string
-PORT=5000</code></pre>
+**Database**
+- PostgreSQL
 
-<p>Start the backend:</p>
-<pre><code>npm run dev</code></pre>
+**Security**
+- Rate limiting
+- Bot detection
 
-<h3>3️ Frontend Setup</h3>
-<pre><code>cd frontend
-npm install</code></pre>
 
-<p>Start the frontend:</p>
-<pre><code>npm run dev</code></pre>
 
-<h2>API Endpoints</h2>
-<table>
-  <tr>
-    <th>Method</th>
-    <th>Endpoint</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>GET</td>
-    <td><code>/api/items</code></td>
-    <td>Fetch all items</td>
-  </tr>
-  <tr>
-    <td>GET</td>
-    <td><code>/api/items/:id</code></td>
-    <td>Get item by ID</td>
-  </tr>
-  <tr>
-    <td>POST</td>
-    <td><code>/api/items</code></td>
-    <td>Create a new item</td>
-  </tr>
-  <tr>
-    <td>PUT</td>
-    <td><code>/api/items/:id</code></td>
-    <td>Update an item</td>
-  </tr>
-  <tr>
-    <td>DELETE</td>
-    <td><code>/api/items/:id</code></td>
-    <td>Delete an item</td>
-  </tr>
-</table>
+### Setup .env file
+
+```js
+PORT=3000
+
+PGUSER=...
+PGPASSWORD=...
+PGHOST=...
+PGDATABASE=...
+
+ARCJET_KEY=...
+ARCJET_ENV=development
+```
+
+### Run the API
+
+```shell
+npm run dev
+```
+
+### Run the frontend
+
+```shell
+cd frontend
+npm run dev
+```
+
+
+   
 
 
 
