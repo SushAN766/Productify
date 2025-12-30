@@ -1,5 +1,5 @@
 <h1 align="center"> Full-Stack Product Store </h1>
-![Demo App](/frontend/public/screenshot-for-readme.png)
+![Demo App](frontend\public\screenshot-for-readme.png)
 <p>A full-stack CRUD (Create, Read, Update, Delete) application built with PostgreSQL, Express, React, and Node.js, styled with TailwindCSS + DaisyUI, and featuring Zustand for state management, rate limiting, and bot detection.</p>
 
 <h2> Features</h2>
